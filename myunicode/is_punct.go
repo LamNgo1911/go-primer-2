@@ -1,4 +1,4 @@
-package goprimer
+package myunicode
 
 func IsPunct(r rune) bool {
 	if r < '!' || r > '~' {

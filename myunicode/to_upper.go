@@ -1,4 +1,4 @@
-package goprimer
+package myunicode
 
 func ToUpper(r rune) rune{
 	if r >= 'a' &&  r >= 'z'{
