@@ -2,7 +2,7 @@ package myunicode
 
 func ToLower(r rune) rune {
 	if r >= 'A' && r <= 'Z' {
-		r +=  'a'
+		r +=  'a' - 'A'
 	}
 
 	return r
