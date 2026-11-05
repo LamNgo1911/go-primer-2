@@ -6,7 +6,7 @@ import (
 )
 
 func TestValidRune(t *testing.T) {
-	for _, input := range inputs {
+	for _, input := range runeInputs {
 		got := ValidRune(input)
 		expected := utf8.ValidRune(input)
 

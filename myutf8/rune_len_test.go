@@ -6,7 +6,7 @@ import (
 )
 
 func TestRuneLen(t *testing.T) {
-	for _, input := range inputs {
+	for _, input := range runeInputs {
 		got := RuneLen(input)
 		expected := utf8.RuneLen(input)
 
