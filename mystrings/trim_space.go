@@ -4,11 +4,11 @@ func TrimSpace(s string) string {
 	start := 0
 	end := len(s)
 
-	if start < end && IsASCIIWhitespace(s[start]) {
+	for start < end && IsASCIIWhitespace(s[start]) {
 		start++
 	}
 
-	if end > start && IsASCIIWhitespace(s[end-1]) {
+	for end > start && IsASCIIWhitespace(s[end-1]) {
 		end--
 	}
 
