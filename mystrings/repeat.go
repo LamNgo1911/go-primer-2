@@ -1,6 +1,6 @@
 package mystrings
 
-func Repeat(s string, count int) (string, bool)  {
+func Repeat(s string, count int) (string, bool) {
 	if count < 0 {
 		return "", false
 	}
