@@ -1,6 +1,6 @@
 package mystrings
 
-import "goprimer/go-primer-2/myunicode"
+import "go-primer-2/myunicode"
 
 func ToLower(s string) string {
 	result := make([]rune, 0, len(s))
