@@ -21,3 +21,7 @@ func Index(s, substr string) int { // count byte
 
 // 0-9
 // 7-11  i <= s - substr
+// strin gs
+//     ngs
+// stri😭ngs
+// 	   😭ngs
