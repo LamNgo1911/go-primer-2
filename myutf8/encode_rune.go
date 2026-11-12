@@ -4,7 +4,7 @@ func EncodeRune(p []byte, r rune) (int, bool) {
 
 	// Invalid characters default to the standard replacement character U+FFFD
 	if r < 0 || r > 0x10FFFF || (r >= 0xD800 && r <= 0xDFFF) {
-		r = 0xFFFD
+		r = 0xFFFD // rune error �
 	}
 
 	rlen := RuneLen(r)
